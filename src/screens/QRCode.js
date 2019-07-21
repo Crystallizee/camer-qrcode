@@ -49,7 +49,7 @@ class QRCode extends Component {
             onRead={this.onSuccess.bind(this)}
             ref={node => {
               this.scanner = node;
-            }}
+            }}  
             topContent={
               <View>
                 <Text style={styles.centerText}>
